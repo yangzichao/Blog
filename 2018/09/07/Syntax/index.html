@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        Syntax - undefined
         
     </title>
 
@@ -82,7 +82,7 @@
                 </a>
             </li>
 
-            <li  class=active >
+            <li >
                   <a href="/archives">
                       <i class="iconfont delete"></i>
                       <span>ARCHIVES</span>
@@ -92,6 +92,10 @@
             
         </ul>
     </div>
+    
+        <div id="toc" class="toc-article">
+    
+</div>
     
 </div>
 
@@ -105,50 +109,33 @@
         
 
 
-<!-- 归档列表 -->
+<div class="post-container">
+    <div class="post-title">
+        Syntax
+    </div>
 
-<div class="archives-container">
-
-<div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2018">
-                    <span class="tag-text">2018</span>
-                </span>
-    <ul>
+    <div class="post-meta">
+        <span class="attr">Post：<span>2018-09-07 14:12:39</span></span>
         
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-07</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/09/07/Syntax/">
-                        <span>
-                            Syntax
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-03</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/09/03/test/">
-                        <span>
-                            Test Markdown
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
+        </span>
+        <span class="attr">Visit：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p>Determines whether a string is legal : Syntax</p>
+<p>Determines whether a string has meaning : Static Semantics</p>
+<p>Assigns a meaning to a legal sentence : Semantics</p>
+<p>即</p>
+<p>我 喜欢 吃     Syntax error</p>
+<p>我 吃 喜欢     Syntax correct, Static Semantics error</p>
+<p>我 吃 灯光     Syntax correct, Static Semantics Correct, Semantics error</p>
+<p>我 吃 米饭     Syntax correct, Static Semantics Correct, Semantics correct</p>
 
-    </ul>
-</div>
-
+        
+        <div id="comment-container">
+        </div>
+    </div>
 </div>
     </div>
 </div>
@@ -212,7 +199,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = ""
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
