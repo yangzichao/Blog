@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        Boo - undefined
         
     </title>
 
@@ -90,7 +90,7 @@
                 </a>
             </li>
 
-            <li  class=active >
+            <li >
                   <a href="/archives">
                       <i class="iconfont delete"></i>
                       <span>ARCHIVES</span>
@@ -100,6 +100,10 @@
             
         </ul>
     </div>
+    
+        <div id="toc" class="toc-article">
+    
+</div>
     
 </div>
 
@@ -113,82 +117,34 @@
         
 
 
-<!--归档列表 -->
+<div class="post-container">
+    <div class="post-title">
+        Boo
+    </div>
 
-<div class="archives-container">
+    <div class="post-meta">
+        <span class="attr">Post：<span>2018-09-08 17:28:24</span></span>
+        
+        </span>
+        <span class="attr">Visit：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p>#Hint: Priority order of Boolean operations<br>For these problems, it’s important to understand the priority of Boolean operations. The order of operations is as follows:</p>
+<p>1.Parentheses. Before operating on anything else, Python must evaluate all parentheticals starting at the innermost level.</p>
+<p>2.not statements.</p>
+<p>3.and statements.</p>
+<p>4.or statements.</p>
+<p>not True = false</p>
+<p>False or True = True</p>
+<p>False and True = False</p>
 
-<div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2018">
-                    <span class="tag-text">2018</span>
-                </span>
-    <ul>
         
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-09</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/09/09/SomePythonStudyNotes/">
-                        <span>
-                            SomePythonStudyNotes
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-08</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/09/08/PythonBool/">
-                        <span>
-                            Boo
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-07</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/09/07/Syntax/">
-                        <span>
-                            Syntax
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>09-03</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/09/03/test/">
-                        <span>
-                            Test Markdown
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
-        
-
-    </ul>
+        <div id="comment-container">
+        </div>
+    </div>
 </div>
-
-</div>
-
     </div>
 </div>
 
@@ -250,7 +206,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = ""
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
