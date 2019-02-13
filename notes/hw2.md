@@ -1,3 +1,10 @@
+---
+title: hw2
+date: 
+tags:
+mathjax: true
+---
+
 # Homework2 Zichao Yang
 
 ## p1
@@ -35,7 +42,7 @@ Final set of parameters            Asymptotic Standard Error
 A               = 11.583           +/- 0.1446       (1.249%)
 ```
 
-Global fit would give a result of A = 11.583. 
+Global fit would give a result of A = 11.583.
 
 ![image-20190129235834939](/Users/yangzichao/Library/Application Support/typora-user-images/image-20190129235834939.png)
 
@@ -46,7 +53,7 @@ octave:3> 80.7/6
 ans =  13.450
 ```
 
-In EFT, we should get A = 13.450. 
+In EFT, we should get A = 13.450.
 
 ```
 gnuplot> g(x) = 13.45*x*(x+1)
@@ -79,23 +86,23 @@ The theory breaks down at the scale of 0.8MeV.
 
 I will choose $R = \sqrt[3]{A} R_0$ and $R_0 = 1.25 fm, m_N = 931.5 MeV$
 
-Thus the moment of inertia is $\Theta = \frac{2}{5} A m_N R^2 = 0.4*162*931.5MeV *46.4334 fm^2 \simeq 71.98 MeV^{-1}$ 
+Thus the moment of inertia is $\Theta = \frac{2}{5} A m_N R^2 = 0.4*162*931.5MeV *46.4334 fm^2 \simeq 71.98 MeV^{-1}$
 
 $\frac{1}{2\Theta} = \frac{1}{143.96} MeV = 6.94637 keV$
 
-While from **p3**, we know that $A\simeq 13$ 
+While from **p3**, we know that $A\simeq 13$
 
 ###elliptical
 
-If we change our assumption from spherical to elliptical nuclei, we would keep the mass to be the same. This means that we should have $\rho V = constant$ and $R^3 = a^2 b​$ 
+If we change our assumption from spherical to elliptical nuclei, we would keep the mass to be the same. This means that we should have $\rho V = constant$ and $R^3 = a^2 b​$
 
 Now we look at the expression, we should compare these two expression
 
-$spherical \propto 2R^2​$, $elliptical \propto (a^2 + b^2) = (R^3/b + b^2)​$ 
+$spherical \propto 2R^2​$, $elliptical \propto (a^2 + b^2) = (R^3/b + b^2)​$
 
-Assume $b = xR$, we get $elliptical \propto (1/x + x^2)R^2$ 
+Assume $b = xR$, we get $elliptical \propto (1/x + x^2)R^2$
 
-Thus we have $d(1/x + x^2) = (-1/x^2 + 2x) dx = 0$ 
+Thus we have $d(1/x + x^2) = (-1/x^2 + 2x) dx = 0$
 
 We get that $x \simeq 0.8R$ to get the minimum moment of inertia. And it is $(1/0.8 + 0.64)R^2 = 1.89 R^2 < 2R^2$
 
@@ -103,7 +110,7 @@ But this assumption does not change too much of the moment of inertia.
 
 ### assumption
 
-We shall not assume that the mass is distributed homogeously. We should consider that most of the mass is distributed near the center but still in the shape of American football. So that we could decrease the moment of inertia and keep the symmetry. 
+We shall not assume that the mass is distributed homogeously. We should consider that most of the mass is distributed near the center but still in the shape of American football. So that we could decrease the moment of inertia and keep the symmetry.
 
 ##p6
 
@@ -135,7 +142,7 @@ $^8Be$, $^{24}Mg$, $^{38}Mg$, are also deformed.
 
 ## p10
 
-We need to simply calculate the low energy levels. 
+We need to simply calculate the low energy levels.
 
 $^{163}Dy$ : $A \simeq 10.456​$
 
@@ -159,11 +166,11 @@ This should be the Yrast Line.
 
 ## p12
 
-I searched table, maybe the value is not correct. But what I've got is that 
+I searched table, maybe the value is not correct. But what I've got is that
 
 $2+ \rightarrow 0+: 5.23​$, $ \frac{4+\rightarrow2+}{2+\rightarrow0+} = 1.42​$
 
-Clebsch-Gordon: $(C^{20}_{4020})^2 = 0.286225$, $(C^{00}_{2020})^2 = 0.19981$ 
+Clebsch-Gordon: $(C^{20}_{4020})^2 = 0.286225$, $(C^{00}_{2020})^2 = 0.19981$
 
 The ratio of Clebsch Gordon coeffiecients is $1.432$, so we could say that $B(E2;i\rightarrow f) \propto (C^{I_f0}_{I_i020})^2  $
 
@@ -186,4 +193,3 @@ There are some empty orbits for those nucleons near the surface to go. Thus thos
  ## p15
 
 This is hard to say. Maybe it is because to have a oblate nuclei, you need to have a negative quadrupole value, which is naturally harder to achieve such a structure since nuclei is positive charged in relatively macroscopic scale.
-
